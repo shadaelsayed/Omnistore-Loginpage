@@ -1,0 +1,117 @@
+body{
+    height: fit-content;
+       font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+nav{
+  padding: 10px 10px;
+  top: 0;
+}
+.d1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+
+}
+.logo{
+    padding-left: 10px;
+
+}
+.ul-1{
+   list-style: none;
+   padding-right: 100px;
+}
+ .ul-1 li{
+    font-weight: 500;
+     display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+ }
+.input{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: #e9e0e0;
+    color: #555;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+  
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+} 
+
+.d2{
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    background-image: url(./images/img2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.d3{
+   padding-top: 10px;
+}
+
+.login{
+    font-size: 22px;
+
+}
+.d3 p{
+    color: #555;
+}
+.d3 input{
+    display: block;
+    margin-bottom: 10px;
+    padding:10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+   outline: none;
+}
+.d3 button{
+    padding: 10px 15px;
+    background-color: #A67B5B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+  
+}
+
+
+
+.container2{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.div1{
+    padding-left: 10px;
+}
+
+.imgdiv{
+    display: block;
+}
